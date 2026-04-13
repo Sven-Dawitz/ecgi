@@ -6,15 +6,10 @@
 
 void usage()
 {
-	printf("
-html2h v0.1
-usage:
-	html2h input.html [output.h]
-
-	if output is not set, input.h will be generated and overwritten!
-
-	debug messages are written to stderr!
-
+	printf("html2h v0.1\nusage:\n \
++	html2h input.html [output.h]\n\n \
++	if output is not set, input.h will be generated and overwritten!\n\n \
++	debug messages are written to stderr!\n\n \
 ");
 
 	exit(0);
@@ -415,4 +410,6 @@ void pexit(char *msg, const char *comment)
 {
 	fprintf(stderr, "%s%s\n", msg, comment);
 	exit(1);
+
 }
+

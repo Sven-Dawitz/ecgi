@@ -1,11 +1,11 @@
-CC = gcc
+CC?= gcc
 INCS =  -I../include/ -I.
-FLAGS = -Wall
+CFLAGS += -Wall
 
 all: html2h
 
 html2h: html2h.c html2h.h
-	$(CC) html2h.c -o html2h $(INCS) $(FLAGS) ../obj/memfile.o
+	$(CC) html2h.c -o html2h $(INCS) $(CFLAGS) ../obj/memfile.o
 
 install: all
 	cp html2h /usr/bin
