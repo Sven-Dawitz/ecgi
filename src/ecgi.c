@@ -2,12 +2,12 @@
    ecgi.c
 
    ECgiLib -- Easy CGI Library -- Main header file
-   http://www.global-owl.de/ecgi/
+   https://github.com/Sven-Dawitz/ecgi
 
    Copyright (C) 2000 by Sven Dawitz <Sven at Dawitz.de>
    based on cgic by Todor Prokopov <koprok@newmail.net>
 
-   Distributed under the GNU General Public License, see the file COPYING for
+   Distributed under the GNU General Public License, see the file LICENSE for
    more details.
 */
 
