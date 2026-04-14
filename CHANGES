@@ -9,6 +9,18 @@
 * SOURCE CODE CHANGES *
 ***********************
 
+0.6.4
+-----
+- Its 2026, the project lay dormant since 2001. There was a 0.6.3 Release
+  in 2011, but I have no memory about this.
+- So, about 25 years later, me (Sven Dawitz) finds this package again. I make
+  basic changes in formating and documentation and put the project in
+    https://github.com/Sven-Dawitz/ecgi.git
+- I applied all patches from the freebsd ports system and I changed the
+  documentation in doc/ - written 2000 in M$ Word - to a TUTORIAL.md file
+    See https://bsdforge.com/projects/devel/ecgi/
+- Small changes to the Makefile, so the obj/ directory is created if not
+  existing, because git does track files, not directories
 0.6.3
 -----
 - doc cleanup
